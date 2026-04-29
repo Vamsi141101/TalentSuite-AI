@@ -1,4 +1,4 @@
-# TalentSuite v3.0 — 50 Features · Glassmorphism UI · Stripe + OpenAI
+# TalentSuite AI — Resume Analyser · Stripe + OpenAI
 
 > "Intelligence that finds the right person"
 
