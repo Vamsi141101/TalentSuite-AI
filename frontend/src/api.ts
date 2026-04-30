@@ -1,5 +1,5 @@
 import axios from 'axios'
-const B=import.meta.env.VITE_API_URL||'http://localhost:8001'
+const B='https://talentsuite-api-production.up.railway.app'
 const H=()=>{const t=localStorage.getItem('ts_token');return t?{Authorization:`Bearer ${t}`}:{}}
 export const checkHealth=async()=>{try{const{data}=await axios.get(B+'/health',{timeout:3000});return data}catch{return null}}
 export const register=async(email:string,name:string,password:string)=>{const{data}=await axios.post(B+'/auth/register',{email,name,password});return data}
